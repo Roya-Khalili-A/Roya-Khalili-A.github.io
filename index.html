@@ -3,582 +3,226 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="theme-color" content="#14324a" />
-  <meta name="description" content="Academic website of Roya Khalili Amirabadi — Applied Mathematics, Optimization, Reinforcement Learning, Optimal Control, and intelligent dynamical systems." />
+  <meta name="theme-color" content="#0b2a38" />
+  <meta name="description" content="Academic website of Roya Khalili Amirabadi — applied mathematics, optimization, reinforcement learning, optimal control, nonlinear systems, and industrial intelligent modeling." />
   <meta name="author" content="Roya Khalili Amirabadi" />
   <meta name="robots" content="index,follow" />
-
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="Roya Khalili Amirabadi | Applied Mathematics, Optimization & Reinforcement Learning" />
-  <meta property="og:description" content="Research in reinforcement learning, nonlinear optimal control, optimization, uncertain dynamical systems, and industrial intelligent modeling." />
+  <meta property="og:title" content="Roya Khalili Amirabadi | Applied Mathematics · Optimization · Reinforcement Learning" />
+  <meta property="og:description" content="Research on safe reinforcement learning, nonlinear optimal control, optimization, uncertain dynamical systems, and industrial intelligent modeling." />
   <meta property="og:image" content="assets/og-profile.jpg" />
   <meta name="twitter:card" content="summary_large_image" />
-
-  <title>Roya Khalili Amirabadi | Applied Mathematics · Optimization · Reinforcement Learning</title>
+  <title>Roya Khalili Amirabadi | Academic Research</title>
   <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="styles.css" />
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Person",
     "name": "Roya Khalili Amirabadi",
-    "url": "",
-    "image": "assets/roya-khalili-amirabadi.webp",
+    "url": "https://roya-khalili-a.github.io/",
+    "image": "https://roya-khalili-a.github.io/assets/roya-khalili-amirabadi.webp",
     "email": "mailto:roya.khalili.a@gmail.com",
     "jobTitle": "Applied Mathematics Researcher",
-    "alumniOf": {
-      "@type": "CollegeOrUniversity",
-      "name": "Ferdowsi University of Mashhad"
-    },
+    "alumniOf": {"@type":"CollegeOrUniversity","name":"Ferdowsi University of Mashhad"},
     "sameAs": [
       "https://scholar.google.com/citations?user=RggMn5oAAAAJ",
       "https://www.linkedin.com/in/roya-khalili-b30847133"
     ],
-    "knowsAbout": [
-      "Reinforcement Learning",
-      "Optimal Control",
-      "Optimization",
-      "Safe Reinforcement Learning",
-      "Nonlinear Dynamical Systems",
-      "Physics-Informed Neural Networks"
-    ]
+    "knowsAbout": ["Reinforcement Learning","Safe Reinforcement Learning","Optimal Control","Optimization","Nonlinear Dynamical Systems","Physics-Informed Neural Networks"]
   }
   </script>
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="topbar" id="top">
-    <div class="shell topbar-inner">
-      <a class="brand" href="#home" aria-label="Roya Khalili Amirabadi home">
-        <span class="brand-mark">RK</span>
-        <span class="brand-name">Roya Khalili Amirabadi</span>
+  <aside class="sidebar" aria-label="Profile and primary navigation">
+    <div class="sidebar-inner">
+      <a class="profile-link" href="#home" aria-label="Go to top">
+        <div class="portrait-shell">
+          <div class="portrait-accent" aria-hidden="true"></div>
+          <img src="assets/roya-khalili-amirabadi.webp" alt="Portrait of Roya Khalili Amirabadi" />
+        </div>
+        <div class="profile-copy">
+          <span class="profile-kicker">Academic researcher</span>
+          <h1>Roya Khalili<br />Amirabadi</h1>
+          <p class="profile-role">Ph.D. in Applied Mathematics<br /><span>Operations Research</span></p>
+          <p class="profile-fields">Optimization · Reinforcement Learning · Optimal Control · Nonlinear Systems</p>
+        </div>
       </a>
-      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
-        <span></span><span></span><span></span>
-      </button>
-      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
-        <a href="#experience">Experience</a>
-        <a href="#education">Education</a>
-        <a href="#research">Research</a>
-        <a href="#projects">Projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#contact">Contact</a>
+
+      <div class="profile-actions" aria-label="External profile links">
+        <a href="assets/Roya_Khalili_Amirabadi_CV.pdf" target="_blank" rel="noopener" aria-label="Download CV">CV</a>
+        <a href="https://scholar.google.com/citations?user=RggMn5oAAAAJ" target="_blank" rel="noopener" aria-label="Google Scholar">GS</a>
+        <a href="https://www.linkedin.com/in/roya-khalili-b30847133" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+        <a href="mailto:roya.khalili.a@gmail.com" aria-label="Email">@</a>
+      </div>
+
+      <nav class="side-nav" id="side-nav" aria-label="Main navigation">
+        <a class="nav-item active" href="#home"><span>01</span>Overview</a>
+        <a class="nav-item" href="#research"><span>02</span>Research Focus</a>
+        <a class="nav-item" href="#selected-publications"><span>03</span>Selected Work</a>
+        <a class="nav-item" href="#experience"><span>04</span>Experience</a>
+        <a class="nav-item" href="#education"><span>05</span>Education</a>
+        <a class="nav-item" href="#projects"><span>06</span>Research Projects</a>
+        <a class="nav-item" href="#publications"><span>07</span>Publications</a>
+        <a class="nav-item" href="#teaching"><span>08</span>Teaching & Skills</a>
+        <a class="nav-item" href="#contact"><span>09</span>Contact</a>
       </nav>
+
+      <p class="sidebar-foot">Academic portfolio · Updated October 2026</p>
     </div>
+  </aside>
+
+  <header class="mobile-header">
+    <a href="#home" class="mobile-brand"><span>RK</span><strong>Roya Khalili Amirabadi</strong></a>
+    <button class="mobile-menu" type="button" aria-expanded="false" aria-controls="mobile-nav" aria-label="Open navigation"><span></span><span></span><span></span></button>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+      <a href="#research">Research</a><a href="#selected-publications">Selected Work</a><a href="#experience">Experience</a><a href="#education">Education</a><a href="#projects">Projects</a><a href="#publications">Publications</a><a href="#contact">Contact</a>
+    </nav>
   </header>
 
-  <main id="main">
-    <section class="hero section" id="home">
-      <div class="shell hero-grid">
-        <div class="portrait-wrap reveal">
-          <div class="portrait-frame">
-            <img src="assets/roya-khalili-amirabadi.webp" alt="Portrait of Roya Khalili Amirabadi" class="portrait" />
-          </div>
+  <main id="main" class="content">
+    <section class="hero card-section" id="home" data-section="home">
+      <div class="hero-ornament ornament-one" aria-hidden="true"></div>
+      <div class="hero-ornament ornament-two" aria-hidden="true"></div>
+      <div class="hero-main">
+        <p class="eyebrow">Applied Mathematics · Optimization · Learning-Based Control</p>
+        <h2>Learning, optimization, and control for nonlinear and safety-critical systems</h2>
+        <p class="hero-lead">I develop mathematically grounded learning and optimization methods for constrained nonlinear systems, with emphasis on safe reinforcement learning, optimal control, uncertain dynamics, and intelligent industrial modeling.</p>
+        <div class="hero-buttons">
+          <a class="button primary" href="#selected-publications">Explore selected research <span>→</span></a>
+          <a class="button secondary" href="assets/Roya_Khalili_Amirabadi_CV.pdf" target="_blank" rel="noopener">Curriculum Vitae</a>
         </div>
+        <div class="hero-keywords" aria-label="Research keywords">
+          <span>Safe RL</span><span>Optimal Control</span><span>Experience Replay</span><span>Nonlinear Systems</span><span>PINNs</span>
+        </div>
+      </div>
+      <aside class="snapshot" aria-label="Academic snapshot">
+        <p class="snapshot-title">Academic snapshot</p>
+        <div class="metric"><strong>9</strong><span>Peer-reviewed journal articles</span></div>
+        <div class="metric"><strong>3</strong><span>Book chapters in press</span></div>
+        <div class="metric"><strong>20/20</strong><span>Ph.D. dissertation grade</span></div>
+        <div class="metric"><strong>#1</strong><span>Ph.D. academic performance</span></div>
+      </aside>
+    </section>
 
-        <div class="hero-copy reveal">
-          <p class="eyebrow">Academic Research Profile</p>
-          <h1>Roya Khalili Amirabadi</h1>
-          <p class="hero-role">Ph.D. in Applied Mathematics (Operations Research)</p>
-          <p class="hero-fields">Optimization · Reinforcement Learning · Optimal Control · Nonlinear Systems</p>
-          <p class="hero-summary">
-            Applied mathematician working at the intersection of learning-based control, constrained nonlinear optimization, and uncertain dynamical systems. My research develops reinforcement-learning and optimization methods for safe control, efficient experience reuse, nonlinear system modeling, and engineering applications.
-          </p>
-          <div class="hero-actions">
-            <a class="button primary" href="#publications">View Publications</a>
-            <a class="button secondary" href="assets/Roya_Khalili_Amirabadi_CV.pdf" target="_blank" rel="noopener">Download CV</a>
-          </div>
-          <div class="profile-links" aria-label="Academic profile links">
-            <a href="https://scholar.google.com/citations?user=RggMn5oAAAAJ" target="_blank" rel="noopener">Google Scholar</a>
-            <a href="https://www.linkedin.com/in/roya-khalili-b30847133" target="_blank" rel="noopener">LinkedIn</a>
-            <a href="mailto:roya.khalili.a@gmail.com">Email</a>
-          </div>
+    <section class="section-block" id="research" data-section="research">
+      <div class="section-head">
+        <div><p class="section-index">02 · RESEARCH FOCUS</p><h2>Research at the intersection of mathematics, learning, and control</h2></div>
+        <p>My work spans theory-driven control design, data-driven learning, and computational optimization, with applications ranging from dynamical systems to industrial processes.</p>
+      </div>
+      <div class="research-grid">
+        <article class="research-card accent-a"><span class="research-no">01</span><h3>Safe Reinforcement Learning</h3><p>Actor–critic learning, constrained decision-making, experience replay, and safety-aware control for nonlinear continuous-time systems.</p><div class="tag-row"><span>Actor–Critic</span><span>Experience Replay</span></div></article>
+        <article class="research-card accent-b"><span class="research-no">02</span><h3>Optimal & Nonlinear Control</h3><p>Optimal-control formulations for uncertain and constrained dynamics, including bi-level architectures, sliding-mode control, and robust methods.</p><div class="tag-row"><span>Nonlinear Systems</span><span>Robust Control</span></div></article>
+        <article class="research-card accent-c"><span class="research-no">03</span><h3>Optimization & Dynamic Systems</h3><p>Hybrid metaheuristics, non-stationary optimization, and event-triggered search for problems whose landscapes evolve over time.</p><div class="tag-row"><span>Metaheuristics</span><span>Dynamic Optimization</span></div></article>
+        <article class="research-card accent-d"><span class="research-no">04</span><h3>Scientific & Industrial AI</h3><p>Physics-informed learning, predictive maintenance, LSTM-based modeling, and data-driven methods for industrial process analysis.</p><div class="tag-row"><span>PINNs</span><span>Industrial R&D</span></div></article>
+      </div>
+    </section>
+
+    <section class="section-block" id="selected-publications" data-section="selected-publications">
+      <div class="section-head compact-head">
+        <div><p class="section-index">03 · SELECTED WORK</p><h2>Selected publications</h2></div>
+        <a class="section-link" href="#publications">View full publication list →</a>
+      </div>
+      <div class="featured-pubs">
+        <article class="featured-pub">
+          <div class="pub-rank">01</div><div class="pub-body"><div class="pub-meta"><span>Scientific Reports</span><span>2026</span></div><h3>Self-organizing dual-buffer adaptive clustering experience replay (SODACER) for safe reinforcement learning in optimal control</h3><p><strong>R. Khalili Amirabadi</strong>, M. Jalaeian-Farimani, O. Solaymani-Fard</p><div class="pub-links"><a href="https://doi.org/10.1038/s41598-026-44517-1" target="_blank" rel="noopener">DOI</a><span>Safe RL</span><span>Experience Replay</span></div></div>
+        </article>
+        <article class="featured-pub">
+          <div class="pub-rank">02</div><div class="pub-body"><div class="pub-meta"><span>Neurocomputing</span><span>2026</span></div><h3>Experience replay in reinforcement learning: A systematic review</h3><p><strong>R. Khalili Amirabadi</strong>, M. Jalaeian-Farimani, O. Solaymani-Fard</p><div class="pub-links"><a href="https://doi.org/10.1016/j.neucom.2026.134403" target="_blank" rel="noopener">DOI</a><span>Systematic Review</span><span>RL</span></div></div>
+        </article>
+        <article class="featured-pub">
+          <div class="pub-rank">03</div><div class="pub-body"><div class="pub-meta"><span>ISA Transactions</span><span>2025</span></div><h3>LSTM-empowered reinforcement learning in bi-level optimal control for nonlinear systems with uncertain dynamics</h3><p><strong>R. Khalili Amirabadi</strong>, M. Jalaeian-Farimani, O. S. Fard</p><div class="pub-links"><a href="https://doi.org/10.1016/j.isatra.2025.11.027" target="_blank" rel="noopener">DOI</a><span>LSTM</span><span>Bi-Level Control</span></div></div>
+        </article>
+        <article class="featured-pub">
+          <div class="pub-rank">04</div><div class="pub-body"><div class="pub-meta"><span>Expert Systems with Applications</span><span>2025</span></div><h3>Towards optimal control of HPV model using safe reinforcement learning with actor–critic neural networks</h3><p><strong>R. Khalili Amirabadi</strong>, O. S. Fard, M. Jalaeian Farimani</p><div class="pub-links"><a href="https://doi.org/10.1016/j.eswa.2024.125783" target="_blank" rel="noopener">DOI</a><span>Actor–Critic</span><span>Optimal Control</span></div></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-block" id="experience" data-section="experience">
+      <div class="section-head compact-head"><div><p class="section-index">04 · EXPERIENCE</p><h2>Professional experience</h2></div></div>
+      <div class="timeline">
+        <article class="timeline-row"><div class="timeline-date">Sep 2025<br />— Present</div><div class="timeline-marker"><span></span></div><div class="timeline-card"><div class="timeline-top"><div><p class="overline">INDUSTRIAL R&D</p><h3>R&D Team Member</h3></div><span class="current-badge">Current</span></div><p class="institution">Knowledge-Based Automation and Project Development Industrial Company of Paz</p><p>Develop data-driven and learning-based models for industrial systems, supported by Python-based simulation and analysis of operational datasets.</p><ul><li>Reinforcement-learning approaches to predictive maintenance in the steel industry.</li><li>Physics-informed neural networks for unmodeled dynamics in steel heating and melting processes.</li><li>Translation of mathematical and learning-based models into engineering and operational objectives.</li></ul></div></article>
+        <article class="timeline-row"><div class="timeline-date">2014<br />— 2020</div><div class="timeline-marker"><span></span></div><div class="timeline-card"><p class="overline">UNIVERSITY TEACHING</p><h3>University Instructor</h3><p class="institution">Iran</p><p>Taught undergraduate Fundamental Mathematics and Artificial Intelligence, prepared teaching materials, and mentored students.</p></div></article>
+        <article class="timeline-row"><div class="timeline-date">2008<br />— 2011</div><div class="timeline-marker"><span></span></div><div class="timeline-card"><p class="overline">MATHEMATICS EDUCATION</p><h3>University Teaching in Mathematics</h3><p class="institution">Iran</p><p>Early university teaching experience in mathematics before graduate specialization in Operations Research.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section-block" id="education" data-section="education">
+      <div class="section-head compact-head"><div><p class="section-index">05 · EDUCATION</p><h2>Academic training & distinctions</h2></div></div>
+      <div class="education-layout">
+        <div class="degree-stack">
+          <article class="degree-card featured-degree"><span class="degree-year">2020–2025</span><p class="overline">FERDOWSI UNIVERSITY OF MASHHAD</p><h3>Ph.D. in Applied Mathematics</h3><p class="degree-sub">Operations Research</p><div class="degree-metrics"><span>GPA <strong>19.08/20</strong></span><span>Dissertation <strong>20/20</strong></span></div><p class="thesis">Solving a Class of Optimal Control Problems of Continuous-Time Systems Using Deep Learning Techniques</p><p class="small">Supervisor: Dr. Omid Soleimanifard · Co-advisor: Dr. Mohsen Jalaeian Farimani</p></article>
+          <article class="degree-card"><span class="degree-year">2011–2014</span><p class="overline">PAYAME NOOR UNIVERSITY OF MASHHAD</p><h3>M.Sc. in Applied Mathematics</h3><p class="degree-sub">Operations Research</p><div class="degree-metrics"><span>GPA <strong>17.25/20</strong></span><span>Thesis <strong>19.25/20</strong></span></div><p class="thesis">Sliding Mode Control of Outbreaks of Emerging Infectious Disease</p><p class="small">Supervisor: Dr. Aghileh Heydari · Co-advisor: Dr. Mohammad Reza Zarrabi</p></article>
+          <article class="degree-card"><span class="degree-year">2004–2008</span><p class="overline">PAYAME NOOR UNIVERSITY · TORBAT-E HEYDARIEH</p><h3>B.Sc. in Applied Mathematics</h3></article>
+        </div>
+        <aside class="distinction-card"><p class="overline">ACADEMIC DISTINCTIONS</p><div class="distinction"><strong>01</strong><p>Ranked first in academic performance among Ph.D. students at Ferdowsi University of Mashhad.</p></div><div class="distinction"><strong>02</strong><p>Ranked first in the M.Sc. program at Payame Noor University of Mashhad.</p></div><div class="distinction"><strong>03</strong><p>Ranked third nationwide among Payame Noor University M.Sc. students.</p></div></aside>
+      </div>
+    </section>
+
+    <section class="section-block" id="projects" data-section="projects">
+      <div class="section-head"><div><p class="section-index">06 · RESEARCH PROJECTS</p><h2>Selected research directions</h2></div><p>Projects are organized around reusable methodological ideas rather than single publications, reflecting a broader research program in learning-based control and optimization.</p></div>
+      <div class="project-grid">
+        <article class="project-card"><div class="project-top"><span>01</span><span class="project-icon">↗</span></div><h3>Safe RL for Nonlinear Optimal Control</h3><p>Safety-aware actor–critic frameworks for constrained nonlinear dynamics, integrating adaptive learning with optimal-control structure.</p><div class="tag-row"><span>Safe RL</span><span>Actor–Critic</span><span>Constraints</span></div></article>
+        <article class="project-card"><div class="project-top"><span>02</span><span class="project-icon">↗</span></div><h3>Experience Replay & Sample Efficiency</h3><p>Systematic study and algorithmic design of replay mechanisms, adaptive clustering, and dual-buffer learning for stable reinforcement learning.</p><div class="tag-row"><span>Replay</span><span>Clustering</span><span>Sample Efficiency</span></div></article>
+        <article class="project-card"><div class="project-top"><span>03</span><span class="project-icon">↗</span></div><h3>LSTM-Assisted Control Under Uncertainty</h3><p>Bi-level control architectures that combine recurrent modeling with reinforcement learning for uncertain nonlinear systems.</p><div class="tag-row"><span>LSTM</span><span>Uncertainty</span><span>Bi-Level Control</span></div></article>
+        <article class="project-card"><div class="project-top"><span>04</span><span class="project-icon">↗</span></div><h3>Industrial Physics-Informed Modeling</h3><p>Predictive maintenance and physics-informed neural networks for steel-process modeling using operational data and engineering constraints.</p><div class="tag-row"><span>PINNs</span><span>Steel</span><span>Industrial AI</span></div></article>
+        <article class="project-card"><div class="project-top"><span>05</span><span class="project-icon">↗</span></div><h3>Dynamic Optimization</h3><p>Event-triggered and nature-inspired methods for optimization problems whose objective landscape changes over time.</p><div class="tag-row"><span>Non-stationary</span><span>Metaheuristics</span></div></article>
+        <article class="project-card"><div class="project-top"><span>06</span><span class="project-icon">↗</span></div><h3>Robust Fuzzy Sliding-Mode Control</h3><p>Robust fuzzy control techniques for uncertain chaotic systems with attention to convergence, chattering reduction, and control quality.</p><div class="tag-row"><span>Fuzzy Control</span><span>SMC</span><span>Chaos</span></div></article>
+      </div>
+    </section>
+
+    <section class="section-block" id="publications" data-section="publications">
+      <div class="section-head compact-head"><div><p class="section-index">07 · PUBLICATIONS</p><h2>Complete publication record</h2></div><a class="section-link" href="https://scholar.google.com/citations?user=RggMn5oAAAAJ" target="_blank" rel="noopener">Google Scholar ↗</a></div>
+      <div class="publication-controls" role="group" aria-label="Publication filters"><button class="filter active" data-filter="all">All</button><button class="filter" data-filter="journal">Journal Articles</button><button class="filter" data-filter="preprint">Preprint</button><button class="filter" data-filter="chapter">Book Chapters</button></div>
+      <div class="publication-list">
+        <article class="publication" data-type="journal"><div class="pub-year">2026</div><div><h3>Experience replay in reinforcement learning: A systematic review</h3><p><strong>R. Khalili Amirabadi</strong>, M. Jalaeian-Farimani, O. Solaymani-Fard</p><p class="venue"><em>Neurocomputing</em>, 700, 134403.</p><div class="pub-actions"><a href="https://doi.org/10.1016/j.neucom.2026.134403" target="_blank" rel="noopener">DOI ↗</a><span>Experience Replay</span><span>Systematic Review</span></div></div></article>
+        <article class="publication" data-type="journal"><div class="pub-year">2026</div><div><h3>Improved control of uncertain chaotic systems using hybrid fuzzy sliding mode techniques: Chattering elimination and robust performance</h3><p><strong>R. Khalili Amirabadi</strong>, O. Solaymani-Fard, A. Mansoori, M. Jalaeian-Farimani</p><p class="venue"><em>Fuzzy Sets and Systems</em>, 109944.</p><div class="pub-actions"><a href="https://doi.org/10.1016/j.fss.2026.109944" target="_blank" rel="noopener">DOI ↗</a><span>Fuzzy Control</span><span>Robust Control</span></div></div></article>
+        <article class="publication" data-type="journal"><div class="pub-year">2026</div><div><h3>Self-organizing dual-buffer adaptive clustering experience replay (SODACER) for safe reinforcement learning in optimal control</h3><p><strong>R. Khalili Amirabadi</strong>, M. Jalaeian-Farimani, O. Solaymani-Fard</p><p class="venue"><em>Scientific Reports</em>, 16, 14960.</p><div class="pub-actions"><a href="https://doi.org/10.1038/s41598-026-44517-1" target="_blank" rel="noopener">DOI ↗</a><span>Safe RL</span><span>Optimal Control</span></div></div></article>
+        <article class="publication" data-type="journal"><div class="pub-year">2025</div><div><h3>LSTM-empowered reinforcement learning in bi-level optimal control for nonlinear systems with uncertain dynamics</h3><p><strong>R. Khalili Amirabadi</strong>, M. Jalaeian-Farimani, O. S. Fard</p><p class="venue"><em>ISA Transactions</em>.</p><div class="pub-actions"><a href="https://doi.org/10.1016/j.isatra.2025.11.027" target="_blank" rel="noopener">DOI ↗</a><span>LSTM</span><span>Bi-Level Control</span></div></div></article>
+        <article class="publication" data-type="journal"><div class="pub-year">2025</div><div><h3>Towards optimal control of HPV model using safe reinforcement learning with actor–critic neural networks</h3><p><strong>R. Khalili Amirabadi</strong>, O. S. Fard, M. Jalaeian Farimani</p><p class="venue"><em>Expert Systems with Applications</em>, 264, 125783.</p><div class="pub-actions"><a href="https://doi.org/10.1016/j.eswa.2024.125783" target="_blank" rel="noopener">DOI ↗</a><span>Actor–Critic</span><span>Safe Control</span></div></div></article>
+        <article class="publication" data-type="journal"><div class="pub-year">2025</div><div><h3>Event-triggered dynamic seed invasive weed optimization (ET-DSIWO): A nature-inspired approach for non-stationary optimization</h3><p>M. Jalaeian-Farimani, <strong>R. Khalili Amirabadi</strong>, M. Esmaeili Ranjbar, S. Samadzadeh</p><p class="venue"><em>Nonlinear Dynamics</em>, 113(20), 27611–27636.</p><div class="pub-actions"><a href="https://doi.org/10.1007/s11071-025-11513-5" target="_blank" rel="noopener">DOI ↗</a><span>Dynamic Optimization</span></div></div></article>
+        <article class="publication" data-type="journal"><div class="pub-year">2024</div><div><h3>Combining hybrid metaheuristic algorithms and reinforcement learning to improve the optimal control of nonlinear continuous-time systems with input constraints</h3><p><strong>R. Khalili Amirabadi</strong>, O. Solaymani-Fard</p><p class="venue"><em>Computers & Electrical Engineering</em>, 116.</p><div class="pub-actions"><a href="https://doi.org/10.1016/j.compeleceng.2024.109179" target="_blank" rel="noopener">DOI ↗</a><span>Metaheuristics</span><span>Optimal Control</span></div></div></article>
+        <article class="publication" data-type="journal"><div class="pub-year">2021</div><div><h3>A novel fuzzy sliding mode control approach for chaotic systems</h3><p><strong>R. Khalili Amirabadi</strong>, O. S. Fard, A. Mansoori</p><p class="venue"><em>Iranian Journal of Fuzzy Systems</em>, 18(6), 133–150.</p><div class="pub-actions"><a href="https://doi.org/10.22111/ijfs.2021.6338" target="_blank" rel="noopener">DOI ↗</a><span>Fuzzy Systems</span><span>Sliding Mode</span></div></div></article>
+        <article class="publication" data-type="journal"><div class="pub-year">2016</div><div><h3>Analysis and control of SEIR epidemic model via sliding mode control</h3><p><strong>R. Khalili Amirabadi</strong>, A. Heydari, M. R. Zarrabi</p><p class="venue"><em>Advanced Modeling and Optimization</em>, 18(1), 153–162.</p><div class="pub-actions"><a href="https://camo.ici.ro/journal/vol18/v18a16.pdf" target="_blank" rel="noopener">Full text ↗</a><span>SEIR</span><span>Epidemic Control</span></div></div></article>
+        <article class="publication" data-type="preprint"><div class="pub-year">2026</div><div><h3>A systematic review and taxonomy of reinforcement learning–model predictive control integration for linear systems</h3><p>M. Jalaeian-Farimani, <strong>R. Khalili Amirabadi</strong>, D. Nikkhouy, M. Abdolbaghi, M. Rastegarmoghaddam, S. Samadzadeh, M. Ghane</p><p class="venue">arXiv:2604.21030.</p><div class="pub-actions"><a href="https://arxiv.org/abs/2604.21030" target="_blank" rel="noopener">arXiv ↗</a><span>RL–MPC</span><span>Systematic Review</span></div></div></article>
+        <article class="publication" data-type="chapter"><div class="pub-year">2026</div><div><h3>Intelligent multi-agent control and forecasting for IoT-driven smart farming: Integrating model predictive control and reinforcement learning</h3><p>M. Jalaeian Farimani, <strong>R. Khalili Amirabadi</strong>, M. Pakdaman, S. Salahshour</p><p class="venue">In <em>AIoT for Smart Farming: Intelligence, Innovation, and Sustainability</em>. IET/Wiley. In press.</p><div class="pub-actions"><span>Smart Farming</span><span>MPC</span><span>RL</span></div></div></article>
+        <article class="publication" data-type="chapter"><div class="pub-year">2026</div><div><h3>Climate-smart and smart agriculture: A review</h3><p>M. Pakdaman, M. Jalaeian Farimani, <strong>R. Khalili Amirabadi</strong></p><p class="venue">In <em>AIoT for Smart Farming: Intelligence, Innovation, and Sustainability</em>. IET/Wiley. In press.</p><div class="pub-actions"><span>Smart Agriculture</span><span>Review</span></div></div></article>
+        <article class="publication" data-type="chapter"><div class="pub-year">2026</div><div><h3>A survey of industrial predictive control environments for autonomous agricultural robotics and smart greenhouse management</h3><p>M. Jalaeian Farimani, <strong>R. Khalili Amirabadi</strong>, M. Pakdaman</p><p class="venue">In <em>AIoT for Smart Farming: Intelligence, Innovation, and Sustainability</em>. IET/Wiley. In press.</p><div class="pub-actions"><span>Predictive Control</span><span>Agricultural Robotics</span></div></div></article>
+      </div>
+      <p class="publication-note">Earlier preprint versions of the SODACER journal article are not counted as separate publications.</p>
+    </section>
+
+    <section class="section-block" id="teaching" data-section="teaching">
+      <div class="section-head compact-head"><div><p class="section-index">08 · TEACHING & SKILLS</p><h2>Teaching and technical toolkit</h2></div></div>
+      <div class="teaching-skills-grid">
+        <div class="teaching-column">
+          <article class="clean-card"><p class="overline">UNIVERSITY INSTRUCTOR · 2014–2020</p><h3>Fundamental Mathematics & Artificial Intelligence</h3><p>Undergraduate teaching, preparation of course materials, and student mentoring.</p></article>
+          <article class="clean-card"><p class="overline">TEACHING ASSISTANT · FERDOWSI UNIVERSITY</p><h3>Mathematical & Computational Methods</h3><p>Advanced Mathematics, Differential Equations, Numerical Analysis, Reinforcement Learning, and Nonlinear Optimization.</p></article>
+        </div>
+        <div class="skills-panel">
+          <div><p class="skill-label">Programming & computation</p><p>Python · MATLAB · Mathematica · scientific computing · numerical simulation · data analysis · visualization</p></div>
+          <div><p class="skill-label">Mathematical methods</p><p>Nonlinear optimization · optimal control · fuzzy systems · sliding-mode control · dynamical systems</p></div>
+          <div><p class="skill-label">Machine learning</p><p>Deep reinforcement learning · actor–critic networks · LSTM · experience replay · physics-informed neural networks</p></div>
+          <div><p class="skill-label">Languages</p><p>Persian · Native &nbsp;&nbsp; English · C1 &nbsp;&nbsp; French · Basic reading and comprehension</p></div>
         </div>
       </div>
     </section>
 
-    <section class="quick-nav" aria-label="Section shortcuts">
-      <div class="shell quick-nav-scroll">
-        <a href="#contact">Contact Information</a>
-        <a href="#experience">Professional Experience</a>
-        <a href="#education">Education</a>
-        <a href="#research">Research Interests</a>
-        <a href="#projects">Research Projects</a>
-        <a href="#publications">Publications</a>
-        <a href="#teaching">Teaching</a>
-        <a href="#distinctions">Distinctions</a>
+    <section class="section-block contact-section" id="contact" data-section="contact">
+      <div class="contact-intro"><p class="section-index light">09 · CONTACT</p><h2>Research conversations, collaboration, and academic opportunities</h2><p>I welcome conversations around reinforcement learning, optimal control, optimization, nonlinear systems, and applied research at the interface of mathematics and intelligent systems.</p></div>
+      <div class="contact-cards">
+        <a href="mailto:roya.khalili.a@gmail.com"><span>Email</span><strong>roya.khalili.a@gmail.com</strong><em>Write to me →</em></a>
+        <a href="https://scholar.google.com/citations?user=RggMn5oAAAAJ" target="_blank" rel="noopener"><span>Google Scholar</span><strong>Research profile</strong><em>View publications ↗</em></a>
+        <a href="https://www.linkedin.com/in/roya-khalili-b30847133" target="_blank" rel="noopener"><span>LinkedIn</span><strong>Professional profile</strong><em>Connect ↗</em></a>
+        <a href="assets/Roya_Khalili_Amirabadi_CV.pdf" target="_blank" rel="noopener"><span>Curriculum Vitae</span><strong>Full academic CV</strong><em>Open PDF ↗</em></a>
       </div>
     </section>
 
-    <section class="section compact" id="research-profile">
-      <div class="shell narrow reveal">
-        <p class="kicker">Research profile</p>
-        <h2>Learning and optimization for complex dynamical systems</h2>
-        <p class="lead">
-          My work combines reinforcement learning, optimal control, optimization, and data-driven modeling to address nonlinear systems with constraints, uncertainty, and safety requirements. Recent research spans safe actor–critic control, experience replay, LSTM-assisted uncertainty modeling, dynamic optimization, and physics-informed learning for industrial processes.
-        </p>
-      </div>
-    </section>
-
-    <section class="section alt" id="contact">
-      <div class="shell">
-        <div class="section-heading reveal">
-          <p class="kicker">Contact</p>
-          <h2>Contact Information</h2>
-        </div>
-        <div class="contact-grid reveal">
-          <article class="info-card">
-            <span class="info-label">Email</span>
-            <a href="mailto:roya.khalili.a@gmail.com">roya.khalili.a@gmail.com</a>
-          </article>
-          <article class="info-card">
-            <span class="info-label">Google Scholar</span>
-            <a href="https://scholar.google.com/citations?user=RggMn5oAAAAJ" target="_blank" rel="noopener">Research profile ↗</a>
-          </article>
-          <article class="info-card">
-            <span class="info-label">LinkedIn</span>
-            <a href="https://www.linkedin.com/in/roya-khalili-b30847133" target="_blank" rel="noopener">Professional profile ↗</a>
-          </article>
-          <article class="info-card">
-            <span class="info-label">Current work</span>
-            <span>Industrial R&amp;D · learning-based modeling and optimization</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="experience">
-      <div class="shell">
-        <div class="section-heading reveal">
-          <p class="kicker">Professional background</p>
-          <h2>Professional Experience</h2>
-        </div>
-        <div class="timeline reveal">
-          <article class="timeline-item">
-            <div class="timeline-meta"><span class="status-dot"></span>Sep 2025 – Present</div>
-            <div class="timeline-content">
-              <p class="overline">Current</p>
-              <h3>R&amp;D Team Member</h3>
-              <p class="institution">Knowledge-Based Automation and Project Development Industrial Company of Paz</p>
-              <p>Develop data-driven and learning-based models for industrial systems using Python-based simulation and operational data analysis.</p>
-              <ul>
-                <li>Investigate reinforcement-learning approaches to predictive maintenance in the steel industry.</li>
-                <li>Explore physics-informed neural networks for unmodeled dynamics in steel heating and melting processes.</li>
-                <li>Connect mathematical modeling and machine-learning methods with engineering and operational objectives.</li>
-              </ul>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-meta">2014 – 2020</div>
-            <div class="timeline-content">
-              <p class="overline">Academic teaching</p>
-              <h3>University Instructor</h3>
-              <p class="institution">Iran</p>
-              <p>Taught undergraduate Fundamental Mathematics and Artificial Intelligence, prepared course material, and mentored students.</p>
-            </div>
-          </article>
-          <article class="timeline-item">
-            <div class="timeline-meta">2008 – 2011</div>
-            <div class="timeline-content">
-              <p class="overline">Academic teaching</p>
-              <h3>University Teaching in Mathematics</h3>
-              <p class="institution">Iran</p>
-              <p>Teaching experience in mathematics before graduate study in Operations Research.</p>
-            </div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt" id="education">
-      <div class="shell">
-        <div class="section-heading reveal">
-          <p class="kicker">Academic training</p>
-          <h2>Education</h2>
-        </div>
-        <div class="education-grid reveal">
-          <article class="degree-card featured">
-            <div class="degree-year">2020–2025</div>
-            <h3>Ph.D. in Applied Mathematics</h3>
-            <p class="degree-specialty">Operations Research</p>
-            <p class="institution">Ferdowsi University of Mashhad, Iran</p>
-            <p><strong>GPA:</strong> 19.08/20 · <strong>Dissertation:</strong> 20/20</p>
-            <p class="thesis-title">“Solving a Class of Optimal Control Problems of Continuous-Time Systems Using Deep Learning Techniques”</p>
-            <p class="small">Supervisor: Dr. Omid Soleimanifard · Co-advisor: Dr. Mohsen Jalaeian Farimani</p>
-          </article>
-          <article class="degree-card">
-            <div class="degree-year">2011–2014</div>
-            <h3>M.Sc. in Applied Mathematics</h3>
-            <p class="degree-specialty">Operations Research</p>
-            <p class="institution">Payame Noor University of Mashhad, Iran</p>
-            <p><strong>GPA:</strong> 17.25/20 · <strong>Thesis:</strong> 19.25/20</p>
-            <p class="thesis-title">“Sliding Mode Control of Outbreaks of Emerging Infectious Disease”</p>
-            <p class="small">Supervisor: Dr. Aghileh Heydari · Co-advisor: Dr. Mohammad Reza Zarrabi</p>
-          </article>
-          <article class="degree-card">
-            <div class="degree-year">2004–2008</div>
-            <h3>B.Sc. in Applied Mathematics</h3>
-            <p class="institution">Payame Noor University, Torbat-e Heydarieh, Iran</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="research">
-      <div class="shell">
-        <div class="section-heading reveal">
-          <p class="kicker">Research</p>
-          <h2>Research Interests</h2>
-        </div>
-        <div class="tag-cloud reveal" aria-label="Research interests">
-          <span>Reinforcement Learning</span>
-          <span>Safe Reinforcement Learning</span>
-          <span>Optimal Control</span>
-          <span>Nonlinear Optimization</span>
-          <span>Learning-Based Control</span>
-          <span>Actor–Critic Methods</span>
-          <span>Experience Replay</span>
-          <span>Uncertain Dynamical Systems</span>
-          <span>Constrained Control</span>
-          <span>LSTM Modeling</span>
-          <span>Physics-Informed Neural Networks</span>
-          <span>Fuzzy Systems</span>
-          <span>Sliding Mode Control</span>
-          <span>Dynamic Optimization</span>
-          <span>Industrial Process Modeling</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt" id="projects">
-      <div class="shell">
-        <div class="section-heading reveal">
-          <p class="kicker">Selected research projects</p>
-          <h2>Research Projects</h2>
-        </div>
-        <div class="project-grid reveal">
-          <article class="project-card">
-            <span class="project-number">01</span>
-            <h3>Safe Reinforcement Learning for Nonlinear Optimal Control</h3>
-            <p>Development of actor–critic reinforcement-learning frameworks for constrained nonlinear control, integrating safety mechanisms and adaptive learning to support reliable decision-making.</p>
-            <div class="project-tags"><span>Safe RL</span><span>Actor–Critic</span><span>Optimal Control</span></div>
-          </article>
-          <article class="project-card">
-            <span class="project-number">02</span>
-            <h3>Experience Replay for Sample-Efficient Reinforcement Learning</h3>
-            <p>Systematic study and methodological development of experience-replay strategies, including adaptive clustering and dual-buffer mechanisms for efficient and stable learning.</p>
-            <div class="project-tags"><span>Experience Replay</span><span>Sample Efficiency</span><span>Clustering</span></div>
-          </article>
-          <article class="project-card">
-            <span class="project-number">03</span>
-            <h3>LSTM-Assisted Bi-Level Control Under Uncertainty</h3>
-            <p>Integration of recurrent learning and reinforcement learning within a bi-level optimal-control framework for nonlinear systems with uncertain dynamics.</p>
-            <div class="project-tags"><span>LSTM</span><span>Bi-Level Control</span><span>Uncertainty</span></div>
-          </article>
-          <article class="project-card">
-            <span class="project-number">04</span>
-            <h3>Industrial Predictive Maintenance and Physics-Informed Modeling</h3>
-            <p>Industrial R&amp;D on learning-based predictive maintenance and physics-informed neural networks for steel-process modeling, with emphasis on operational data and unmodeled dynamics.</p>
-            <div class="project-tags"><span>Industrial AI</span><span>PINNs</span><span>Steel Processes</span></div>
-          </article>
-          <article class="project-card">
-            <span class="project-number">05</span>
-            <h3>Dynamic and Non-Stationary Optimization</h3>
-            <p>Development and analysis of event-triggered nature-inspired optimization methods for problems whose objective landscape changes over time.</p>
-            <div class="project-tags"><span>Dynamic Optimization</span><span>Metaheuristics</span><span>Event Triggering</span></div>
-          </article>
-          <article class="project-card">
-            <span class="project-number">06</span>
-            <h3>Robust Fuzzy Sliding-Mode Control</h3>
-            <p>Design of fuzzy sliding-mode techniques for uncertain chaotic systems, with emphasis on robustness, convergence, and reduction of chattering.</p>
-            <div class="project-tags"><span>Fuzzy Control</span><span>SMC</span><span>Chaotic Systems</span></div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="publications">
-      <div class="shell">
-        <div class="section-heading publications-heading reveal">
-          <div>
-            <p class="kicker">Research output</p>
-            <h2>Publications</h2>
-          </div>
-          <a class="text-link" href="https://scholar.google.com/citations?user=RggMn5oAAAAJ" target="_blank" rel="noopener">Full record on Google Scholar ↗</a>
-        </div>
-
-        <div class="publication-controls reveal" role="group" aria-label="Publication filters">
-          <button class="filter active" data-filter="all">All</button>
-          <button class="filter" data-filter="journal">Journal Articles</button>
-          <button class="filter" data-filter="preprint">Preprints</button>
-          <button class="filter" data-filter="chapter">Book Chapters</button>
-        </div>
-
-        <div class="publication-list reveal">
-          <article class="publication" data-type="journal">
-            <div class="pub-year">2026</div>
-            <div class="pub-content">
-              <h3>Experience replay in reinforcement learning: A systematic review</h3>
-              <p class="authors"><strong>R. Khalili Amirabadi</strong>, M. Jalaeian-Farimani, O. Solaymani-Fard</p>
-              <p class="venue"><em>Neurocomputing</em>, 700, 134403.</p>
-              <div class="pub-actions">
-                <a href="https://doi.org/10.1016/j.neucom.2026.134403" target="_blank" rel="noopener">DOI ↗</a>
-                <span class="topic">Experience Replay</span><span class="topic">Systematic Review</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication" data-type="journal">
-            <div class="pub-year">2026</div>
-            <div class="pub-content">
-              <h3>Improved control of uncertain chaotic systems using hybrid fuzzy sliding mode techniques: Chattering elimination and robust performance</h3>
-              <p class="authors"><strong>R. Khalili Amirabadi</strong>, O. Solaymani-Fard, A. Mansoori, M. Jalaeian-Farimani</p>
-              <p class="venue"><em>Fuzzy Sets and Systems</em>, 542, 109944.</p>
-              <div class="pub-actions">
-                <a href="https://doi.org/10.1016/j.fss.2026.109944" target="_blank" rel="noopener">DOI ↗</a>
-                <span class="topic">Fuzzy Control</span><span class="topic">Robust Control</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication highlight" data-type="journal">
-            <div class="pub-year">2026</div>
-            <div class="pub-content">
-              <h3>Self-organizing dual-buffer adaptive clustering experience replay (SODACER) for safe reinforcement learning in optimal control</h3>
-              <p class="authors"><strong>R. Khalili-Amirabadi</strong>, M. Jalaeian-Farimani, O. Solaymani-Fard</p>
-              <p class="venue"><em>Scientific Reports</em>, 16, Article 14960.</p>
-              <div class="pub-actions">
-                <a href="https://doi.org/10.1038/s41598-026-44517-1" target="_blank" rel="noopener">DOI ↗</a>
-                <span class="topic">Safe RL</span><span class="topic">Experience Replay</span><span class="topic">Optimal Control</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication highlight" data-type="journal">
-            <div class="pub-year">2026</div>
-            <div class="pub-content">
-              <h3>LSTM-empowered reinforcement learning in bi-level optimal control for nonlinear systems with uncertain dynamics</h3>
-              <p class="authors"><strong>R. Khalili Amirabadi</strong>, M. Jalaeian-Farimani, O. S. Fard</p>
-              <p class="venue"><em>ISA Transactions</em>, 168, 465–478.</p>
-              <div class="pub-actions">
-                <a href="https://doi.org/10.1016/j.isatra.2025.11.027" target="_blank" rel="noopener">DOI ↗</a>
-                <span class="topic">LSTM</span><span class="topic">Bi-Level Control</span><span class="topic">RL</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication highlight" data-type="journal">
-            <div class="pub-year">2025</div>
-            <div class="pub-content">
-              <h3>Towards optimal control of HPV model using safe reinforcement learning with actor–critic neural networks</h3>
-              <p class="authors"><strong>R. Khalili Amirabadi</strong>, O. S. Fard, M. Jalaeian Farimani</p>
-              <p class="venue"><em>Expert Systems with Applications</em>, 264, 125783.</p>
-              <div class="pub-actions">
-                <a href="https://doi.org/10.1016/j.eswa.2024.125783" target="_blank" rel="noopener">DOI ↗</a>
-                <span class="topic">Actor–Critic</span><span class="topic">Safe Control</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication" data-type="journal">
-            <div class="pub-year">2025</div>
-            <div class="pub-content">
-              <h3>Event-triggered dynamic seed invasive weed optimization (ET-DSIWO): A nature-inspired approach for non-stationary optimization</h3>
-              <p class="authors">M. Jalaeian-Farimani, <strong>R. Khalili Amirabadi</strong>, M. Esmaeili Ranjbar, S. Samadzadeh</p>
-              <p class="venue"><em>Nonlinear Dynamics</em>, 113(20), 27611–27636.</p>
-              <div class="pub-actions">
-                <a href="https://doi.org/10.1007/s11071-025-11513-5" target="_blank" rel="noopener">DOI ↗</a>
-                <span class="topic">Dynamic Optimization</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication" data-type="journal">
-            <div class="pub-year">2024</div>
-            <div class="pub-content">
-              <h3>Combining hybrid metaheuristic algorithms and reinforcement learning to improve the optimal control of nonlinear continuous-time systems with input constraints</h3>
-              <p class="authors"><strong>R. Khalili Amirabadi</strong>, O. Solaymani-Fard</p>
-              <p class="venue"><em>Computers &amp; Electrical Engineering</em>, 116, 109179.</p>
-              <div class="pub-actions">
-                <a href="https://doi.org/10.1016/j.compeleceng.2024.109179" target="_blank" rel="noopener">DOI ↗</a>
-                <span class="topic">Metaheuristics</span><span class="topic">Optimal Control</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication" data-type="journal">
-            <div class="pub-year">2021</div>
-            <div class="pub-content">
-              <h3>A novel fuzzy sliding mode control approach for chaotic systems</h3>
-              <p class="authors"><strong>R. Khalili Amirabadi</strong>, O. S. Fard, A. Mansoori</p>
-              <p class="venue"><em>Iranian Journal of Fuzzy Systems</em>, 18(6), 133–150.</p>
-              <div class="pub-actions">
-                <a href="https://doi.org/10.22111/ijfs.2021.6338" target="_blank" rel="noopener">DOI ↗</a>
-                <span class="topic">Fuzzy Systems</span><span class="topic">Sliding Mode Control</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication" data-type="journal">
-            <div class="pub-year">2016</div>
-            <div class="pub-content">
-              <h3>Analysis and control of SEIR epidemic model via sliding mode control</h3>
-              <p class="authors"><strong>R. Khalili Amirabadi</strong>, A. Heydari, M. R. Zarrabi</p>
-              <p class="venue"><em>Advanced Modeling and Optimization</em>, 18(1), 153–162.</p>
-              <div class="pub-actions">
-                <a href="https://camo.ici.ro/journal/vol18/v18a16.pdf" target="_blank" rel="noopener">Full text ↗</a>
-                <span class="topic">SEIR</span><span class="topic">Epidemic Control</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication" data-type="preprint">
-            <div class="pub-year">2026</div>
-            <div class="pub-content">
-              <h3>A systematic review and taxonomy of reinforcement learning–model predictive control integration for linear systems</h3>
-              <p class="authors">M. Jalaeian-Farimani, <strong>R. Khalili Amirabadi</strong>, D. Nikkhouy, M. Abdolbaghi, M. Rastegarmoghaddam, S. Samadzadeh, M. Ghane</p>
-              <p class="venue">arXiv:2604.21030.</p>
-              <div class="pub-actions">
-                <a href="https://arxiv.org/abs/2604.21030" target="_blank" rel="noopener">arXiv ↗</a>
-                <span class="topic">RL–MPC</span><span class="topic">Systematic Review</span>
-              </div>
-            </div>
-          </article>
-
-          <article class="publication" data-type="chapter">
-            <div class="pub-year">2026</div>
-            <div class="pub-content">
-              <h3>Intelligent multi-agent control and forecasting for IoT-driven smart farming: Integrating model predictive control and reinforcement learning</h3>
-              <p class="authors">M. Jalaeian Farimani, <strong>R. Khalili Amirabadi</strong>, M. Pakdaman, S. Salahshour</p>
-              <p class="venue">In A. Ahmadian (Ed.), <em>AIoT for Smart Farming: Intelligence, Innovation, and Sustainability</em>. IET/Wiley. In press.</p>
-              <div class="pub-actions"><span class="topic">Smart Farming</span><span class="topic">MPC</span><span class="topic">RL</span></div>
-            </div>
-          </article>
-
-          <article class="publication" data-type="chapter">
-            <div class="pub-year">2026</div>
-            <div class="pub-content">
-              <h3>Climate-smart and smart agriculture: A review</h3>
-              <p class="authors">M. Pakdaman, M. Jalaeian Farimani, <strong>R. Khalili Amirabadi</strong></p>
-              <p class="venue">In A. Ahmadian (Ed.), <em>AIoT for Smart Farming: Intelligence, Innovation, and Sustainability</em>. IET/Wiley. In press.</p>
-              <div class="pub-actions"><span class="topic">Smart Agriculture</span><span class="topic">Review</span></div>
-            </div>
-          </article>
-
-          <article class="publication" data-type="chapter">
-            <div class="pub-year">2026</div>
-            <div class="pub-content">
-              <h3>A survey of industrial predictive control environments for autonomous agricultural robotics and smart greenhouse management</h3>
-              <p class="authors">M. Jalaeian Farimani, <strong>R. Khalili Amirabadi</strong>, M. Pakdaman</p>
-              <p class="venue">In A. Ahmadian (Ed.), <em>AIoT for Smart Farming: Intelligence, Innovation, and Sustainability</em>. IET/Wiley. In press.</p>
-              <div class="pub-actions"><span class="topic">Predictive Control</span><span class="topic">Agricultural Robotics</span></div>
-            </div>
-          </article>
-        </div>
-
-        <p class="publication-note reveal">Earlier preprint versions of the SODACER article are available on arXiv and SSRN; they are not counted here as separate publications.</p>
-      </div>
-    </section>
-
-    <section class="section alt" id="teaching">
-      <div class="shell">
-        <div class="section-heading reveal">
-          <p class="kicker">Teaching</p>
-          <h2>Teaching &amp; Educational Activities</h2>
-        </div>
-        <div class="teaching-grid reveal">
-          <article class="teaching-card">
-            <p class="overline">University Instructor · 2014–2020</p>
-            <h3>Mathematics &amp; Artificial Intelligence</h3>
-            <p>Undergraduate teaching in Fundamental Mathematics and Artificial Intelligence, including preparation of teaching materials and student mentoring.</p>
-          </article>
-          <article class="teaching-card">
-            <p class="overline">Teaching Assistant · Ferdowsi University</p>
-            <h3>Mathematical &amp; Computational Methods</h3>
-            <p>Courses include Advanced Mathematics, Differential Equations, Numerical Analysis, Reinforcement Learning, and Nonlinear Optimization.</p>
-          </article>
-          <article class="teaching-card">
-            <p class="overline">Research education</p>
-            <h3>Scientific Communication</h3>
-            <p>Experience in scientific writing, systematic reviews, numerical experimentation, research presentations, and mentoring-oriented teaching.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="skills">
-      <div class="shell">
-        <div class="section-heading reveal">
-          <p class="kicker">Methods &amp; tools</p>
-          <h2>Technical Skills</h2>
-        </div>
-        <div class="skills-grid reveal">
-          <article><h3>Programming &amp; Computation</h3><p>Python · MATLAB · Mathematica · scientific computing · numerical simulation · data analysis · visualization</p></article>
-          <article><h3>Mathematical Methods</h3><p>Nonlinear optimization · optimal control · fuzzy systems · sliding mode control · dynamical systems modeling</p></article>
-          <article><h3>Machine Learning</h3><p>Deep reinforcement learning · actor–critic networks · LSTM models · experience replay · physics-informed neural networks</p></article>
-          <article><h3>Research Communication</h3><p>Scientific writing · systematic reviews · technical presentations · literature synthesis</p></article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt" id="distinctions">
-      <div class="shell">
-        <div class="section-heading reveal">
-          <p class="kicker">Recognition</p>
-          <h2>Academic Distinctions</h2>
-        </div>
-        <div class="award-list reveal">
-          <div class="award"><span>01</span><p><strong>Ranked first</strong> in academic performance among Ph.D. students, Ferdowsi University of Mashhad.</p></div>
-          <div class="award"><span>02</span><p><strong>Ranked first</strong> in the M.Sc. program, Payame Noor University of Mashhad.</p></div>
-          <div class="award"><span>03</span><p><strong>Ranked third nationwide</strong> among Payame Noor University M.Sc. students.</p></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" id="training">
-      <div class="shell two-column">
-        <div class="reveal">
-          <p class="kicker">Selected activities</p>
-          <h2>Training &amp; Conference Participation</h2>
-        </div>
-        <div class="simple-list reveal">
-          <p><strong>MATLAB training</strong> — basic and advanced, Arg Institute, 25 hours, February 2016.</p>
-          <p><strong>Poster presentation</strong> — International Conference on Research in Science and Technology, Kuala Lumpur, 2015.</p>
-          <p><strong>Poster presentation</strong> — National Conference on Mathematics of Payame Noor University, Isfahan, 2014.</p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section cta" id="cv">
-      <div class="shell cta-inner reveal">
-        <div>
-          <p class="kicker light">Curriculum vitae</p>
-          <h2>Complete academic record</h2>
-          <p>Download the full CV for detailed education, publications, experience, skills, distinctions, and academic references.</p>
-        </div>
-        <a class="button light-button" href="assets/Roya_Khalili_Amirabadi_CV.pdf" target="_blank" rel="noopener">Download CV (PDF)</a>
-      </div>
-    </section>
+    <footer class="site-footer"><p>© <span id="year"></span> Roya Khalili Amirabadi</p><p>Applied Mathematics · Optimization · Reinforcement Learning</p><a href="#home">Back to top ↑</a></footer>
   </main>
-
-  <footer class="footer">
-    <div class="shell footer-inner">
-      <div>
-        <strong>Roya Khalili Amirabadi</strong>
-        <p>Applied Mathematics · Optimization · Reinforcement Learning</p>
-      </div>
-      <div class="footer-links">
-        <a href="mailto:roya.khalili.a@gmail.com">Email</a>
-        <a href="https://scholar.google.com/citations?user=RggMn5oAAAAJ" target="_blank" rel="noopener">Scholar</a>
-        <a href="https://www.linkedin.com/in/roya-khalili-b30847133" target="_blank" rel="noopener">LinkedIn</a>
-        <a href="#top">Back to top ↑</a>
-      </div>
-      <p class="copyright">© <span id="year"></span> Roya Khalili Amirabadi. Last updated October 2026.</p>
-    </div>
-  </footer>
 
   <script src="script.js"></script>
 </body>
